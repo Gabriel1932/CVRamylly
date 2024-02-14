@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/07b735852d.js" crossorigin="anonymous"></script>
+    <title>Meu Portfólio</title>
+    <style>
+        .foto-perfil{
+           height:250px ;
+           width: 250px;
+           border-radius: 50%;
+        }
+        .corPrimaria{
+          background-color: #FD4659;
+        }
+        .corSecundaria{
+          background-color:#4A0100;
+        }
+        p{
+          font-family:Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+          color:black !important;
+        }
+        .icons{
+          padding-left: 5px;
+        }
+        .titulosBrancos {
+          text-decoration: underline;
+          text-underline-position: below;
+          padding-bottom: 5px;
+          text-transform: uppercase;
+          font-weight: 700;
+          color: white;
+        }
+        .titulosVerdes {
+          text-decoration: underline;
+          text-underline-position: below;
+          padding-bottom: 5px;
+          text-transform: uppercase;
+          font-weight: 700;
+          color: white;
+        }
+        .textoBranco{
+          color: white !important;
+        }
+        .jumbotron{
+          margin-bottom: 0px;
+        }
+        .textoFooter{
+          margin: 0px;
+          padding-top: 15px;
+          padding-bottom: 15px;
+        }
+        html{
+          scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <nav class="corSecundaria navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand textoBranco" href="#">Ramylly Mayrly</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link textoBranco" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link textoBranco" href="#projetos">Projetos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link textoBranco" href="#sobre-mim">Sobre Mim</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link textoBranco" href="#contato">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <section class="jumbotron text-center corPrimaria">
+        <div class="container">
+            <img src="https://media-for1-1.cdn.whatsapp.net/v/t61.24694-24/423956189_1337695523588311_210359775822472550_n.jpg?ccb=11-4&oh=01_AdS5pY82vYLPL_3HkpdXwPkVN7JSDvgVcYIqa1vEPLQ_Xw&oe=65D77E7C&_nc_sid=e6ed6c&_nc_cat=108" alt="" class="foto-perfil">
+          <h1 class="jumbotron-heading textoBranco">Ramylly Mayrly </h1>
+          <p class="lead textoBranco">Designer - Estudante - Gata</p>
+          <p>
+            <a href="#contato" class="btn btn-dark my-2">Contato</a>
+          </p>
+          <a href="https://api.whatsapp.com/send?phone=558398682638&text=Ol%C3%A1,%20gostaria%20de%20saber%20como%20funciona%20para%20comprar%20seus%20servi%C3%A7os%20"><i class="icons fab fa-whatsapp textoBranco"></i></a>
+          <a href="https://www.instagram.com/ramyly.may/"><i class="icons fab fa-instagram textoBranco"></i></a>
+        </div>
+      </section>
+      <div style="background-color: #FDB0C0;" >
+        <div class="container" id="projetos">
+          <h2 class="titulosVerdes jumbotron-heading text-center">
+            Projetos
+          </h2>
+          <div class="row" >
+            <div class="col-md-6" >
+              <div class="card mb-4 box-shadow" style="background-color: #FDB0C0;">
+                <img class="card-img-top" src="https://imgs.search.brave.com/IdIyI6Y3Ei4F8KMzYH0zAocn9TlUt1ViQwgN6UHUWz4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdXBw/b3J0LmNvbnRlbnQu/b2ZmaWNlLm5ldC9w/dC1ici9tZWRpYS80/OTY2ZWNhMy1kMGNh/LTQwNTgtYjhiMy05/OTU2ODFiNmRiZGEu/cG5n" data-holder-rendered="true">
+                <div class="card-body">
+                  <p class="card-text">informações</p>
+                  <ul>
+                    <li>Lista do que vc usou pra fazer</li>
+                  </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="https://api.whatsapp.com/send?phone=558398682638&text=Ol%C3%A1,%20gostaria%20de%20encomendar%20um%20projeto%20%F0%9F%A5%B0"><button type="button" class="btn btn-sm btn-outline-success">Comprar</button></a>
+                    </div>
+                  </div>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card mb-4 box-shadow" style="background-color: #FDB0C0;">
+                <img class="card-img-top" src="https://imgs.search.brave.com/IdIyI6Y3Ei4F8KMzYH0zAocn9TlUt1ViQwgN6UHUWz4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdXBw/b3J0LmNvbnRlbnQu/b2ZmaWNlLm5ldC9w/dC1ici9tZWRpYS80/OTY2ZWNhMy1kMGNh/LTQwNTgtYjhiMy05/OTU2ODFiNmRiZGEu/cG5n" data-holder-rendered="true">
+                <div class="card-body">
+                  <p class="card-text">Informações</p>
+                    <ul>
+                      <li>lista do que vc usou pra fazer</li>
+                    </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="https://api.whatsapp.com/send?phone=558398682638&text=Ol%C3%A1,%20gostaria%20de%20encomendar%20um%20projeto%20%F0%9F%A5%B0"><button type="button" class="btn btn-sm btn-outline-success">Comprar</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="jumbotron text-center corPrimaria"id="sobre-mim" >
+        <div class="container" >
+          <h2 class="jumbotron-heading titulosBrancos">Sobre Mim</h2>
+          <p class="lead textoBranco">
+           Olá! Meu nome é Ramylly e sou uma mistura encantadora de beleza e talento. Como designer, trago uma bagagem valiosa de experiência, tendo trabalhado com diversas empresas locais. Minha paixão pela arte se manifesta em várias formas, desde o digital até o tradicional. Sou habilidosa com ferramentas como Canva e Photoshop, mas também aprecio o charme do papel e até mesmo brinco com hieróglifos (bem, só um pouco!). Além de tudo isso, sou uma estudante ávida, sempre em busca de aprimorar minhas habilidades e conhecimentos. Ah, e tenho uma boa dose de paciência, o que é essencial tanto na vida quanto no trabalho. Estou aqui para tornar suas ideias visuais uma realidade deslumbrante!
+          </p>
+        </div>
+      </section>
+      <section style="background-color: #FDB0C0;" id="contato">
+        <div>
+          <div class="container-fluid" >
+            <h3 style="padding-top:60px" class="text-center titulosVerdes">Disponível para oportunidades</h3>
+            <a href="mailto:Ramylly.mayrlly@estudante.ufcg.edu.br"><h4  style="padding-bottom:60px; margin-bottom: 0px" class="text-center">Ramylly.mayrlly@estudante.ufcg.edu.br</h4></a>
+          </div>
+        </div>
+      </section>
+      <footer class="corSecundaria text-center textoFooter">
+        <p class="textoBranco">Copyright 2024 Ramylly Mayrly</p>
+      </footer>
+</body>
+</html>
